@@ -1,4 +1,4 @@
-const message = `I don’t even know if you’ll ever read this.\nBut if you do… I just want you to know, I still think about you sometimes.\n\nWe both tried. We both cared. But the universe just never gave us enough space to become “us.”\n\nI just wonder… if we had met at a different point in life, would the ending have been different?\n\nAnyway, I hope you're doing okay, even though we’re not in each other’s lives anymore.`;
+const message = `happy birthday, i hope today feels a little different for you, in a good way.\ni dont know how to say this without making it sound like too much, but you matter to me more than i usually show, and more than i probably know how to explain.\n\nout of everything, im just really glad i get to know you and be around you like this.\n\ni hope this year gives you more calm days, more clarity, and less things that weigh on you. \n\n and even if things arent always easy, i hope you know theres someone out here who genuinely cares about you, in a way thats not light or temporary.`;
 
 function showLetter() {
   document.getElementById("introText").style.opacity = 0;
