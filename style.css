@@ -63,11 +63,15 @@
   text-align: left;
 
   position: relative;
+  font-family: "Courier New", Courier, monospace;
+  line-height: 2;
 }
 
 .letter p {
   text-align: left;
   margin-top: 10px 0;
+  margin: 18px 0;        
+  text-indent: 20px;     
 }
 .letter::before {
   content: "";
