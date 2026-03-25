@@ -3,18 +3,22 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
+  body {
   font-family: "Georgia", serif;
   background: #1e1e2f;
   color: #fff;
 
   display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  min-height: 100vh;
   flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: center;
+
+  min-height: 100vh;
+  padding-top: 80px;
+  transition: all 0.3s ease;
 }
+
 .intro {
   text-align: center;
   width: 100%;
@@ -88,21 +92,14 @@ body {
   transform: rotate(-2deg);
 }
 @media (max-width: 600px) {
-
-  .letter {
-    width: 90%;
-    padding: 20px 15px 20px 40px;
-    font-size: 0.95rem;
-    max-height: 85vh;
-    overflow-y: auto;
+  body {
+    justify-content: center; 
+    padding-top: 0;  
   }
-
+}
   .letter p {
     margin-top: 5px;
   }
-
   .signature {
     display: none !important;
   }
-
-}
